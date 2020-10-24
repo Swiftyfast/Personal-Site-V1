@@ -86,6 +86,20 @@
     <Content Include="index.html" />
     <Content Include="js\scripts.js" />
     <Content Include="Web.config" />
+    <Content Include="_archive\assets\img\avataaars.svg" />
+    <Content Include="_archive\assets\img\favicon.ico" />
+    <Content Include="_archive\assets\img\portfolio\cabin.png" />
+    <Content Include="_archive\assets\img\portfolio\cake.png" />
+    <Content Include="_archive\assets\img\portfolio\circus.png" />
+    <Content Include="_archive\assets\img\portfolio\game.png" />
+    <Content Include="_archive\assets\img\portfolio\safe.png" />
+    <Content Include="_archive\assets\img\portfolio\submarine.png" />
+    <Content Include="_archive\assets\mail\contact_me.js" />
+    <Content Include="_archive\assets\mail\contact_me.php" />
+    <Content Include="_archive\assets\mail\jqBootstrapValidation.js" />
+    <Content Include="_archive\css\styles.css" />
+    <Content Include="_archive\index.html" />
+    <Content Include="_archive\js\scripts.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
