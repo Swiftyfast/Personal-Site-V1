@@ -69,9 +69,11 @@
   <ItemGroup>
     <Content Include="assets\img\avataaars.svg" />
     <Content Include="assets\img\favicon.ico" />
+    <Content Include="assets\img\HelloJohn_Portrait_sized_copy2.png" />
     <Content Include="assets\img\portfolio\cabin.png" />
     <Content Include="assets\img\portfolio\cake.png" />
     <Content Include="assets\img\portfolio\circus.png" />
+    <Content Include="assets\img\jdsFavicon.ico" />
     <Content Include="assets\img\portfolio\game.png" />
     <Content Include="assets\img\portfolio\safe.png" />
     <Content Include="assets\img\portfolio\submarine.png" />

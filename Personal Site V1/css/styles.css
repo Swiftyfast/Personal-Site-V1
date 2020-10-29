@@ -6097,8 +6097,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #1abc9c !important;
-    
+    /*background-color: #1abc9c !important;*/
+    background: linear-gradient(#FFFFFF, #1abc9c);
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10041,10 +10041,10 @@ h3 {
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #000000;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 .btn-xl {
@@ -10262,4 +10262,10 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+/*This is where I start my stuff*/
+
+.blackText{
+    color: black !important;
 }
