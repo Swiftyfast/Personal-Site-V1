@@ -5471,6 +5471,8 @@ a.close.disabled {
 }
 .modal-dialog-centered.modal-dialog-scrollable .modal-content {
   max-height: none;
+  /* height-john*/
+  /*min-height: calc(80vh);*/
 }
 .modal-dialog-centered.modal-dialog-scrollable::before {
   content: none;
@@ -10275,6 +10277,11 @@ form .row:first-child .floating-label-form-group {
 
 .blackText{
     color: black !important;
+}
+
+/*This is for trying to get the modal row a certain height*/
+.modal-row-doubles {
+    height: 75%;
 }
 
 /*.ui-accordion .ui-accordion-header {
