@@ -71,7 +71,7 @@
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x" aria-hidden="true"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
+                        <img class="img-fluid" src="assets/img/residekc_logo.png" alt="" />
                     </div>
                 </div>
                 <!-- Portfolio Item 3-->
@@ -173,6 +173,7 @@
                                 </div>
                                 <!-- Portfolio Modal - Image-->
                                 <div class="row modal-row-doubles">
+                                    <!--<div class="row">-->
                                     <div class="col-sm-6">
                                         <img class="img-fluid rounded mb-5" src="assets/img/portfolio/genericPizzaLogoBlue.jpg" alt="A slice of pizza with the word pizza. Both are blue on a black background." />
                                     </div>
@@ -199,11 +200,12 @@
                                 </div>
                                 <!-- Portfolio Modal - Text-->
                                 <!--<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>-->
-
+                                <br />
                                 <button class="btn btn-primary" data-dismiss="modal">
                                     <i class="fa fa-times" aria-hidden="true"></i>
                                     Close Window
                                 </button>
+
                             </div>
                         </div>
                     </div>
@@ -221,9 +223,9 @@
                 <div class="modal-body text-center">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-8">
+                            <div class="col-lg-10">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Tasty Cake</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">ResideKC</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -231,33 +233,36 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <div class="row modal-row-doubles">
+                                <!--<div class="row modal-row-doubles">-->
+                                <div class="row">
                                     <div class="col-sm-6">
-                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/genericPizzaLogoBlue.jpg" alt="" />
+                                        <img class="img-fluid rounded mb-5" src="assets/img/residekc_logo.png" alt="The phrase Reside K C and some teal and orange design around it." />
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="accordion">
                                             <h4>Project Description</h4>
                                             <div>
-                                                <p>This is a project that we created at Centriq that uses many different HTML and CSS elements.</p>
+                                                <p>This is a project I worked on as part of a group in an organization called Code for KC.</p>
                                             </div>
                                             <h4>What I Like about this project</h4>
                                             <div>
-                                                <p>This showcases some of the knowledge I have regarding HTML and CSS. It uses a variety of elements that I might normally use, bu it's good to show that I have them in my toolbox.</p>
+                                                <p>This project honed a lot of my React skills and let me work on a development project as part of a group for the first time.</p>
                                             </div>
                                             <h4>What I don't like about this project</h4>
                                             <div>
-                                                <p>In an effort to get as many different HTML and CSS elements into this project, the result has prioritized unnecessary elements over UI design.</p>
+                                                <p>People came and went, and I was really the only one who stayed throughout. Some people that left did invaluable work on this project, but that resulted in code that I couldn't necessary explain to newcomers. And after a certain amount of time it was very difficult to get anyone new on this project, I ended up being the only one on it for the last few months.</p>
                                             </div>
                                             <h4>Links</h4>
                                             <div>
-                                                <p>The Github repository: <a href="https://github.com/Swiftyfast/FED1StudioProject" target="_blank">https://github.com/Swiftyfast/FED1StudioProject</a></p>
+                                                <p>The Github repository: <a href="https://github.com/codeforkansascity/ResideKC/" target="_blank">https://github.com/codeforkansascity/ResideKC/</a><br />
+                                                A link where you can try it out: <a href="http://codeforkc.org/ResideKC/" target="_blank" >http://codeforkc.org/ResideKC/</a></p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Portfolio Modal - Text-->
                                 <!--<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>-->
+                                <br />
                                 <button class="btn btn-primary" data-dismiss="modal">
                                     <i class="fa fa-times" aria-hidden="true"></i>
                                     Close Window
@@ -426,7 +431,8 @@
         $(function () {
             $(".accordion").accordion({
           // optional plugin customization in key value pairs
-          collapXsible: true
+                collapXsible: true,
+                heightStyle: "content"
             });
   } );
     </script>

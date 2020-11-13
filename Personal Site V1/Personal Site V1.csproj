@@ -78,6 +78,7 @@
     <Content Include="assets\img\portfolio\genericPizzaLogoBlue.jpg" />
     <Content Include="assets\img\portfolio\safe.png" />
     <Content Include="assets\img\portfolio\submarine.png" />
+    <Content Include="assets\img\residekc_logo.png" />
     <Content Include="assets\mail\contact_me.js" />
     <Content Include="assets\mail\contact_me.php" />
     <Content Include="assets\mail\jqBootstrapValidation.js" />
