@@ -480,6 +480,13 @@ mark,
   height: auto;
 }
 
+/*i added this*/
+.img-fluid-two {
+    max-width: 50%;
+    height: auto;
+}
+/*ended up not using it at the moment*/
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -5557,7 +5564,7 @@ a.close.disabled {
   .modal-dialog-scrollable .modal-content {
     max-height: calc(100vh - 3.5rem);
   }
-
+  /*here is an edit for height-john the two below where 3.5*/
   .modal-dialog-centered {
     min-height: calc(100% - 3.5rem);
   }
@@ -10269,3 +10276,22 @@ form .row:first-child .floating-label-form-group {
 .blackText{
     color: black !important;
 }
+
+/*.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0 0 0;
+    padding: .5em .5em .5em .7em;
+    font-size: 100%;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+    overflow: auto;
+}
+
+.ui-accordion-content{
+    color: red;
+}*/

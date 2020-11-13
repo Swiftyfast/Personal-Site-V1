@@ -75,6 +75,7 @@
     <Content Include="assets\img\portfolio\circus.png" />
     <Content Include="assets\img\jdsFavicon.ico" />
     <Content Include="assets\img\portfolio\game.png" />
+    <Content Include="assets\img\portfolio\genericPizzaLogoBlue.jpg" />
     <Content Include="assets\img\portfolio\safe.png" />
     <Content Include="assets\img\portfolio\submarine.png" />
     <Content Include="assets\mail\contact_me.js" />
