@@ -7478,6 +7478,7 @@ button.bg-dark:focus {
 
 .h-100 {
   height: 100% !important;
+  /*height: 100%*/
 }
 
 .h-auto {
@@ -10284,6 +10285,13 @@ form .row:first-child .floating-label-form-group {
 /*This is for trying to get the modal row a certain height*/
 .modal-row-doubles {
     height: 75%;
+}
+
+.img-fluid-three {
+    height: 100%;
+    width: auto;
+    /*max-width: 100%;
+    height: auto;*/
 }
 
 /*.ui-accordion .ui-accordion-header {
